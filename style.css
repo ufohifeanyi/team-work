@@ -1,0 +1,672 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppin", sans-serif;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+}
+header {
+  color: #fff;
+  background: #0a3b2c;
+  padding: 5px;
+}
+hr {
+  margin-bottom: 1.5rem;
+}
+header svg {
+  width: 9%;
+  cursor: pointer;
+  transition: width 1s ease-in-out;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+header nav ul svg{
+  width: 15%;
+  display: inline;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+align-items: center;
+justify-content: left;
+width: 30%;
+  list-style: none;
+}
+header nav ol {
+  display: flex;
+align-items: center;
+width: 30%;
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  font-size: 12px;
+  display: inline;
+  align-items: center;
+    font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+
+}
+header a:hover {
+  color: #0a3b2c;
+  background: #ffffff;
+  border-radius: 20px;
+  transition: 0.4s ease;
+  padding: 4px 2px;
+  width: 19%;
+}
+.number svg {
+  width: 5%;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #6d9773;
+  margin-bottom: 0.2rem;
+}
+.call {
+  gap: 10px;
+}
+.t {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.number li {
+  list-style: none;
+  font-family: 'Pacifico', cursive;
+  color: #0a3b2c;
+}
+.service {
+  text-align: center;
+  line-height: 1;
+}
+.service h3 {
+  font-size: 2.3rem;
+  color: #0a3b2c;
+  text-transform: capitalize;
+}
+.th input {
+  border: 1px solid #0a3b2c;
+  border-radius: 24px;
+  height: 50%;
+  padding: 5px 10px;
+}
+.th input:focus {
+  outline: none;
+  color: #0a3b2c;
+}
+.th a {
+  border: 1px solid #0a3b2c;
+  border-radius: 30px;
+  font-size: 11px;
+  padding: 7px 20px;
+  text-decoration: none;
+  color: black;
+}
+.second .mo-margin-list{
+  border: none;
+}
+
+.second {
+  text-align: center;
+  
+}
+.second ul li {
+  display: inline;
+  border-right: 2px solid #0a3b2c;
+
+  padding: 5px 10px;
+}
+.second a {
+  text-decoration: none;
+  color: #0a3b2c;
+}
+.third {
+  background: url("phone.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  margin-bottom: 2.9rem;
+  position: relative;
+}
+.thirdy {
+  width: 70%;
+  position: absolute;
+  bottom: 80px;
+}
+.third p {
+  font-size: 27px;
+  
+  font-family: cursive;
+  filter: blur(0.5px);
+}
+.thirdy h2 {
+  font-size:53px;
+  filter: blur(1px);
+  text-transform: uppercase;
+
+  font-weight: bolder;
+}
+.forth {
+  margin-bottom: 3rem;
+ 
+}
+
+.forth1 p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.fr {
+  display: flex;
+  gap: 8px;
+}
+.fr1 {
+  width: 40%;
+  border: 1px solid #cbcbdd;
+  padding: 5px 6px;
+}
+.frtxt {
+  width: 100%;
+}
+.frtxt p {
+  text-align: center;
+}
+.frtxt img {
+  width: 100%;
+}
+.frtt {
+  width: 100%;
+  height: 40px;
+  
+  font-weight: bold;
+  border: 1px solid #cbcbdd;
+  padding: 0px 0px;
+  
+}
+.frtt button {
+  float: right;
+  border: none;
+  padding: 7px 29px;
+  background:#00800078;
+  cursor: pointer;
+  
+}
+
+.forth2 p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.fo {
+  display: flex;
+  gap: 8px;
+
+}
+.for1 {
+  width: 40%;
+  border: 1px solid #cbcbdd;
+  padding: 7.3px 6px;
+}
+.fortxt {
+  width: 100%;
+}
+.fortxt img {
+  width: 100%;
+}
+.fortxt p {
+  text-align: center;
+}
+.fortt {
+
+  padding-bottom: 11px;
+  font-weight: bold;
+  border: 1px solid #cbcbdd;
+}
+.fortt button {
+  float: right;
+  border: none;
+  padding: 6px 29px;
+  background:#00800078;
+  cursor: pointer;
+}
+.five {
+  text-align: center;
+  color: #fff;
+  background-image: url("fb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  margin-top: 160px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.txt{
+  
+}
+.five p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.five h3 {
+  font-size: 1.8rem;
+  opacity: 0.9;
+}
+.six {
+  
+  width: 80%;
+  margin: 20px auto;
+}
+.six p {
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.six-div {
+  display: flex;
+  gap: 10px;
+}
+.six1 {
+  width: 50%;
+  background: #f4f4f4;
+  border: 2px solid #fff;
+  display: flex;
+  gap: 15px;
+  padding: px px;
+}
+.sixtxt {
+  width: 50%;
+  padding: 8px 5px;
+}
+.sixtxt h4 {
+  margin-bottom: 10px;
+}
+.sixtxt p {
+  margin-bottom: 10px;
+}
+.sixtxt h2 {
+  margin-bottom: 10px;
+}
+.sixtxt a {
+  text-decoration: none;
+  padding: 5px 0px;
+  color: green;
+}
+.sixtxt h4{
+  
+}
+.siximg {
+  width: 50%;
+  position: relative;
+}
+.siximg img {
+  width: 100%;
+  height: 110%;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+.last {
+  padding: 0px 200px;
+  margin-bottom: 3rem;
+}
+.last p {
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.last1 {
+  display: flex;
+  gap: 15px;
+}
+.last-txt {
+  width: 100%;
+  background: #f4f4f4;
+}
+.lasttxt {
+  width: 100%;
+  padding: 8px 15px;
+}
+.lasttxt h5 {
+ 
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.lasttxt p {
+ 
+  margin-bottom: 10px;
+}
+.lastimg {
+  width: 100%;
+}
+.lastimg img {
+  width: 100%;
+ 
+}
+footer {
+  background: #0a3b2c;
+  color: #ffffff;
+}
+.foter {
+  display: flex;
+
+  padding: 14px 60px;
+}
+.bottomtxt {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.bsvg {
+  width: 5%;
+}
+.bsvg svg {
+  width: 100%;
+  color:orange;
+}
+.bottomtt {
+  width: 50%;
+}
+.bottomtt input {
+  border: none;
+width: 30%;
+color: #00800098;
+padding: 5.2px 3px;
+  background: #fff;
+}
+.bottomtt input:focus {
+  outline: none;
+  background: #fff;
+}
+.bottomtt button {
+  border: none;
+  background: green;
+  color: #fff;
+  width: 12%;
+
+  font-size: 11px;
+  padding: 6px 10px;
+}
+.henry {
+  display: flex;
+  justify-content: space-around;
+}
+.henrtlxt p {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.henrtlxt li {
+  list-style: none;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+@media (max-width:376px) {
+  header{
+    display: none;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container {
+    margin:0;
+    width: 100%;
+    font-size: 39px;
+  }
+  
+  header nav {
+    display: none;
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+  
+  }
+  .number li{
+    
+    font-size: 11px;
+  }
+  .t{
+    font-size: 11px;
+  }
+  .th input{
+    display: none;
+  }
+  .service{
+    flex-grow: 2;
+  }
+  .service p{
+    font-size:.7em;
+  }
+  .service h3{
+    font-size:.8em;
+    font-weight: 200;
+  }
+  .second a{
+    font-size: .3em;
+   
+  }
+  .second ul li{
+    border-right: 1px solid black;
+    font-size: 1em;
+   
+  }
+  .third{
+    background-image: url(phone.jpg);
+    background-color: #00000070;
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2.9rem;
+    padding-top: 30px;
+    height: 30vh;
+  }
+  .thirdy {
+    width: 100%;
+    color: #fff;
+    margin-top: 5rem;
+  }
+  .thirdy p{
+    font-size: 22px;
+  }
+  .thirdy h2{
+    font-size: 28px;
+  
+  }
+  
+  .forth {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+  .forth1 {
+    width: 100%;
+  }
+  .forth1 p{
+    font-size: 20px;
+  }
+  .fr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fr1{
+    width: 90%;
+  }
+  .frtxt p {
+     text-align: center;
+     font-size: 14px;
+  }
+
+  .forth2 {
+    width: 94%;
+  }
+  .forth2 p{
+    font-size: 20px;
+  }
+  .frtt{
+    font-size: 19px;
+    padding: 0;
+    height: 10%;
+  }
+  .frtt button{
+    padding: 3px 29px;
+  }
+ 
+  .fo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    
+  }
+  .fortt {
+    font-size: 19px;
+  }
+  .fortt button{
+    padding: 3px 29px;
+  }
+  .for1{
+    width: 100%;
+  }
+  .fortxt p {
+
+    text-align: center;
+  }
+  .five{
+    padding: 0;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .five p{
+    font-size: 10px;
+  }
+  .five h3{
+    font-size: 15px;
+  }
+  .six p{
+    font-size: 20px;
+  }
+  .six-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .six1 {
+    width: 100%;
+    border: 1px solid #0080008c;
+    height: 30vh;
+  }
+  .sixtxt {
+    width: 100%;
+  }
+  .sixtxt p{
+    font-size: 16px;
+  }
+  .sixtxt h4{
+    font-size: 12px;
+  }
+  .sixtxt h3{
+    font-size: 20px;
+    margin-top: -0.3em;
+  }
+  .sixtxt a{
+    font-size: 11px;
+  
+   
+  }
+  .siximg {
+    width: 100%;
+  }
+  .siximg img {
+    width: 100%;
+    height: 100%;
+  }
+  .last {
+    padding: 50px;
+  }
+  .last p{
+    font-size: 10px;
+  }
+ 
+  .last1 {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+  }
+  .lasttxt {
+    width: 100%;
+    padding: 15px;
+  }
+  .lasttxt h5{
+    font-size: 15px;
+  }
+  
+  .foter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .bottomtxt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .bsvg {
+    width: 20%;
+  }
+  .bsvg svg {
+    width: 100%;
+  }
+  .bottomtt {
+    width: 100%;
+    display: flex;
+    gap: 7px;
+  }
+  .bottomtt button {
+    width: 30%;
+    padding: 5px;
+  }
+  .bottomtt  input{
+   width: 100%;
+   height: 7%;
+   
+  }
+  .henry {
+    display: flex;
+    font-size: 19px;
+
+    gap:10px;
+  }
+  .btxt p{
+    font-size: 19px;
+  }
+  .henrtlxt p{
+    font-size: 6px;
+  }
+  .henrtlxt li{
+    font-size: 4px;
+  }
+}
